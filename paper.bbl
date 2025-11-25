@@ -1,0 +1,59 @@
+\begin{thebibliography}{}
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
+  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
+  \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
+
+\bibitem[\protect\citeauthoryear{Battaglia et~al.,}{Battaglia
+  et~al.}{2023}]{battaglia_existence_2023}
+Battaglia A.~F.,  et~al., 2023, \mn@doi [Astronomy and Astrophysics]
+  {10.1051/0004-6361/202347706}, 679, A139
+
+\bibitem[\protect\citeauthoryear{Hudson}{Hudson}{2025}]{hudson_anticipating_2025}
+Hudson H.,  2025, \mn@doi [Solar Physics] {10.1007/s11207-024-02418-4}, 300, 2
+
+\bibitem[\protect\citeauthoryear{Hudson, Simões, Fletcher, Hayes  \&
+  Hannah}{Hudson et~al.}{2021}]{hudson_hot_2021}
+Hudson H.~S.,  Simões P. J.~A.,  Fletcher L.,  Hayes L.~A.,   Hannah I.~G.,
+  2021, \mn@doi [Monthly Notices of the Royal Astronomical Society]
+  {10.1093/mnras/staa3664}, 501, 1273
+
+\bibitem[\protect\citeauthoryear{Sarkar et~al.,}{Sarkar
+  et~al.}{2025}]{sarkar_test_2025}
+Sarkar J.,  et~al., 2025, Test and {Calibration} of the {Solar} {Ultraviolet}
+  {Imaging} {Telescope} ({SUIT}) on board {Aditya}-{L1},
+  \mn@doi{10.48550/arXiv.2503.23476}, \url
+  {https://ui.adsabs.harvard.edu/abs/2025arXiv250323476S}
+
+\bibitem[\protect\citeauthoryear{{Tripathi} et~al.,}{{Tripathi}
+  et~al.}{2017}]{Tripathi2017}
+{Tripathi} D.,  et~al., 2017, \mn@doi [Current Science]
+  {10.18520/cs/v113/i04/616-619}, \href
+  {https://ui.adsabs.harvard.edu/abs/2017CSci..113..616T} {113, 616}
+
+\bibitem[\protect\citeauthoryear{{Tripathi} et~al.,}{{Tripathi}
+  et~al.}{2023}]{Tripathi2023}
+{Tripathi} D.,  et~al., 2023, in {Cauzzi} G.,  {Tritschler} A.,  eds,  IAU
+  Symposium Vol. 372, The Era of Multi-Messenger Solar Physics. pp 17--27
+  (\mn@eprint {arXiv} {2212.13046}), \mn@doi{10.1017/S1743921323001230}
+
+\bibitem[\protect\citeauthoryear{Tripathi et~al.,}{Tripathi
+  et~al.}{2025}]{tripathi_solar_2025}
+Tripathi D.,  et~al., 2025, \mn@doi [Solar Physics]
+  {10.1007/s11207-025-02423-1}, 300, 30
+
+\makeatother
+\end{thebibliography}
