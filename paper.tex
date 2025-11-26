@@ -27,7 +27,7 @@
 % Only include extra packages if you really need them. Avoid using amssymb if newtxmath is enabled, as these packages can cause conflicts. newtxmatch covers the same math symbols while producing a consistent Times New Roman font. Common packages are:
 \usepackage{graphicx}	% Including figure files
 \usepackage{amsmath}	% Advanced maths commands
-\usepackage{textcomp} % For Unicode symbols like ″
+\usepackage{textcomp}   % For Unicode symbols like ″
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -162,15 +162,15 @@ All the images are co-aligned using the \texttt{mc\_coalign} function, publicly 
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{Figures/case4_lc.eps}  
-    \caption{a) \ion{Mg}{ii} h image during the flare peak b)Light curve of \ion{Ca}{ii} H c) Light curve of HEL1OS (both CdTe 1 and CdTe 2 detectors, 9-40 keV), d) and E) Temperature and Emission measure derived from SoLEXS,  }
+    \includegraphics[width=1\linewidth]{Figures/4case4_lc.eps}  
+    \caption{a) Total intensity light curve of the \ion{Mg}{ii} h ROI images (black). The errors of the individual data points are scaled by $10^3$ for visibility. The light curve of the difference-image intensity above the threshold is shown in cyan, with errors scaled by $10^4$ for clarity. b) HEL1OS light curve (CdTe 1 and CdTe 2, 9{--}40 keV), binned to 1-minute intervals, c) Temperature derived from SoLEXS(orange) and X-ray flux from the GOES 1{--} 8 {\AA} band (sky blue) }
     \label{fig:enter-label}
 \end{figure}
 
 \begin{figure}
     \centering
     \includegraphics[width=1\linewidth]{Figures/c4_plot_time_stamps.pdf}
-    \caption{SUIT time stamp images}
+    \caption{Case 4 : SUIT time stamp images of pre-flare enhancements }
     \label{fig:placeholder}
 \end{figure}
 
@@ -184,22 +184,23 @@ All the images are co-aligned using the \texttt{mc\_coalign} function, publicly 
 
 \subsection{Identifying pre-flare enhancements in SUIT}
 To identify the pre-flare enhancements, we adopted the base-difference method. The base image was constructed using the median of the first five images in the 2-hour pre-flare image sequence, which also minimises first-frame selection bias.
-The base-difference images contain quiet-Sun and plage-related fluctuations, as well as intensity fluctuations caused by the contamination pattern. To mitigate these effects, we had to set a threshold to see some strong signals only. 
+The base-difference images contain quiet-Sun and plage-related fluctuations, as well as intensity fluctuations caused by the contamination pattern. To mitigate these effects, we had to set a threshold to see strong enhancements. 
 Mean and standard deviation of the image were affected by bright events.
-Therefore, we computed the median and median absolute deviation (MAD) of the difference image, which are less affected by bright events. And we set a detection threshold of
- $median + 5 \times MAD \sigma$ was applied to the base-difference image, and contours were drawn around the regions exceeding this threshold.
-\begin{equation}
-Threshod= median +5 \times MAD ~ \sigma
-\end{equation}
+Therefore, we computed the median and standard deviation($\hat{\sigma}$) from median absolute deviation (MAD) of the difference image, which are less affected by bright events. And we applied the detection threshold given in Eq.~\ref{eqn:threshold} to the base-difference image, and contours were drawn around the regions exceeding this threshold.
+\begin{align} \label{eqn:threshold}
+\text{Threshold} &= \mathrm{median} + 5 \hat{\sigma}\\
+\hat{\sigma} &= k \times \mathrm{MAD}
+\end{align}
+
 \noindent
-where 
+where
 \begin{align*}
-\tilde{X}=median(X_i)\\
-MAD ~ \sigma = median (|X_i-\tilde{X}|)\times 1.4826
+\tilde{X}    &= \mathrm{median}(X_i)\\
+\mathrm{MAD} &= \mathrm{median}\left(|X_i - \tilde{X}|\right)\\
+\mathrm{k}	&\approx 1.4826 ~ \text{(for normal distribution)}
 \end{align*}
 
-
-Additionally, we imposed a size constraint of 16 pixels (corresponding to a PSF FWHM of 8 pixels). Only features larger than the PSF were retained. The base-difference total intensity within these selected regions was then used to generate the enhancement light curve."
+Additionally, we imposed a size constraint of 16 pixels (corresponding to a PSF FWHM of$\approx$ 8 pixels). Only features larger than the PSF were retained. The base-difference total intensity within these selected regions was then used to generate the enhancement light curve.
 
 \subsection{HEL1OS light curves}
 To study simultaneous coronal activity, we consider the HEL1OS observations, which cover both thermal and non-thermal parts of the flare (10{--}40 keV).
@@ -244,7 +245,7 @@ but, we have an STIX observation for the last 6 cases; using STIX data, we analy
 \section{Results}
 
 \subsection{Case 4: M1.5 class flare on July 10 2024}
-We observe multiple brightenings in the pre-flare window (Fig. \ref{c4_lc}). All the brightening is occurring on the PIL, and some are located close to it. 
+We observe multiple brightenings in the pre-flare window (Fig. \ref{c4_lc}). All the brightening is occurring on the Polarity Inversion Line (PIL), and some are located close to it. 
 
 Several of the enhancements exhibit corresponding pre-event signatures in HEL1OS. 
 To confirm their source locations, we examined the AIA 131 Å images.
@@ -269,7 +270,7 @@ One of the strong flares in our dataset was produced by AR 13848.
 Minor pre-flare activity was detected in this active region. A small brightening was observed at point 6P1, which may represent a small counterpart of the coronal activity seen in the AIA 171 Å images.
 
 The flare ribbons displayed a flipped ‘S’ morphology, suggesting a sigmoidal flare structure, which is further supported by the XRT soft X-ray observations(attach XRT image) .
-The flare may have been triggered by its own magnetic instability, which is a characteristic behaviour of sigmoidal flares.
+%The flare may have been triggered by its own magnetic instability, which is a characteristic behaviour of sigmoidal flares.
 
 \subsection{Case 7: M1.3 class flare on November 1 2024}
 Similar to the other cases, we also observe pre-flare brightenings in this case. 
