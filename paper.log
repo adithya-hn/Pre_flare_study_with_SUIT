@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.31)  26 NOV 2025 15:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.31)  29 NOV 2025 09:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -582,9 +582,6 @@ LaTeX Warning: Label `fig:placeholder' multiply defined.
 
 LaTeX Warning: Label `fig:placeholder' multiply defined.
 
-
-LaTeX Warning: Label `fig:placeholder' multiply defined.
-
 )
 \openout1 = `paper.aux'.
 
@@ -781,22 +778,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
                                                   \__shipout_drop_firstpage_...
 l.162 
       {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
-Package epstopdf Info: Source file: <Figures/4case4_lc.eps>
-(epstopdf)                    date: 2025-11-26 15:42:30
-(epstopdf)                    size: 1111401 bytes
-(epstopdf)             Output file: <Figures/4case4_lc-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-11-26 15:43:11
-(epstopdf)                    size: 191750 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/4case4_lc-eps-conv
-erted-to.pdf Figures/4case4_lc.eps>
-(epstopdf)             \includegraphics on input line 165.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/4case4_lc-eps-converted-to.pdf, id=135, 822.07124pt x 1133.23375pt>
-File: Figures/4case4_lc-eps-converted-to.pdf Graphic file (type pdf)
-<use Figures/4case4_lc-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/4case4_lc-eps-converted-to.pdf  used on input 
-line 165.
-(pdftex.def)             Requested size: 244.0pt x 336.35878pt.
+<Figures/case4_lc.pdf, id=135, 808.77719pt x 817.99965pt>
+File: Figures/case4_lc.pdf Graphic file (type pdf)
+<use Figures/case4_lc.pdf>
+Package pdftex.def Info: Figures/case4_lc.pdf  used on input line 165.
+(pdftex.def)             Requested size: 244.0pt x 246.77477pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 8.0pt on input line 166.
 <Figures/c4_plot_time_stamps.pdf, id=136, 1374.13374pt x 714.67pt>
@@ -816,54 +802,40 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 5.5pt on input line 193.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 212.
+(Font)              scaled to size 12.0pt on input line 214.
  [2
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.212 
-      
+l.214 \subsection
+                 {Temperature from SoLEXS}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.212 
-      
+l.214 \subsection
+                 {Temperature from SoLEXS}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.212 
-       <./Figures/4case4_lc-eps-converted-to.pdf> <./Figures/c4_plot_time_stamp
-s.pdf> <./Figures/c4_hmi_plot_time_stamps.pdf>]
-Package epstopdf Info: Source file: <Figures/c4_helios_aia_131_fd_roi_lc.eps>
-(epstopdf)                    date: 2025-11-24 22:48:16
-(epstopdf)                    size: 1112455 bytes
-(epstopdf)             Output file: <Figures/c4_helios_aia_131_fd_roi_lc-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2025-11-25 10:09:27
-(epstopdf)                    size: 166733 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/c4_helios_aia_131_
-fd_roi_lc-eps-converted-to.pdf Figures/c4_helios_aia_131_fd_roi_lc.eps>
-(epstopdf)             \includegraphics on input line 225.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/c4_helios_aia_131_fd_roi_lc-eps-converted-to.pdf, id=184, 698.61pt x 3
-46.29375pt>
-File: Figures/c4_helios_aia_131_fd_roi_lc-eps-converted-to.pdf Graphic file (ty
-pe pdf)
-<use Figures/c4_helios_aia_131_fd_roi_lc-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/c4_helios_aia_131_fd_roi_lc-eps-converted-to.p
-df  used on input line 225.
-(pdftex.def)             Requested size: 244.0pt x 120.94571pt.
+l.214 \subsection
+                 {Temperature from SoLEXS} <./Figures/case4_lc.pdf> <./Figures/
+c4_plot_time_stamps.pdf> <./Figures/c4_hmi_plot_time_stamps.pdf>]
+<Figures/c4_helios_aia_131_fd_roi_lc.pdf, id=207, 1207.09723pt x 527.57097pt>
+File: Figures/c4_helios_aia_131_fd_roi_lc.pdf Graphic file (type pdf)
+<use Figures/c4_helios_aia_131_fd_roi_lc.pdf>
+Package pdftex.def Info: Figures/c4_helios_aia_131_fd_roi_lc.pdf  used on input
+ line 226.
+(pdftex.def)             Requested size: 244.0pt x 106.63933pt.
  [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.283 
-       <./Figures/c4_helios_aia_131_fd_roi_lc-eps-converted-to.pdf>]
-(./paper.bbl
+l.286 
+       <./Figures/c4_helios_aia_131_fd_roi_lc.pdf>] (./paper.bbl
 LaTeX Info: Redefining \VAN on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 8.0pt on input line 39.
@@ -872,422 +844,272 @@ Package epstopdf Info: Source file: <Figures/case4_lc.eps>
 (epstopdf)                    date: 2025-11-26 15:27:08
 (epstopdf)                    size: 1078695 bytes
 (epstopdf)             Output file: <Figures/case4_lc-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-11-26 15:28:30
+(epstopdf)                    date: 2025-11-27 23:59:37
 (epstopdf)                    size: 185398 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/case4_lc-eps-conve
 rted-to.pdf Figures/case4_lc.eps>
-(epstopdf)             \includegraphics on input line 389.
+(epstopdf)             \includegraphics on input line 386.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/case4_lc-eps-converted-to.pdf, id=227, 809.0225pt x 818.05624pt>
+<Figures/case4_lc-eps-converted-to.pdf, id=256, 809.0225pt x 818.05624pt>
 File: Figures/case4_lc-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/case4_lc-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/case4_lc-eps-converted-to.pdf  used on input l
-ine 389.
+ine 386.
 (pdftex.def)             Requested size: 244.0pt x 246.71695pt.
 File: Figures/c4_plot_time_stamps.pdf Graphic file (type pdf)
 <use Figures/c4_plot_time_stamps.pdf>
 Package pdftex.def Info: Figures/c4_plot_time_stamps.pdf  used on input line 39
-6.
+3.
 (pdftex.def)             Requested size: 244.0pt x 126.90115pt.
-Package epstopdf Info: Source file: <Figures/c4_helios_aia_131_fd_roi_lc.eps>
-(epstopdf)                    date: 2025-11-24 22:48:16
-(epstopdf)                    size: 1112455 bytes
-(epstopdf)             Output file: <Figures/c4_helios_aia_131_fd_roi_lc-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2025-11-25 10:09:27
-(epstopdf)                    size: 166733 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/c4_helios_aia_131_
-fd_roi_lc-eps-converted-to.pdf Figures/c4_helios_aia_131_fd_roi_lc.eps>
-(epstopdf)             \includegraphics on input line 403.
-Package epstopdf Info: Output file is already uptodate.
-File: Figures/c4_helios_aia_131_fd_roi_lc-eps-converted-to.pdf Graphic file (ty
-pe pdf)
-<use Figures/c4_helios_aia_131_fd_roi_lc-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/c4_helios_aia_131_fd_roi_lc-eps-converted-to.p
-df  used on input line 403.
-(pdftex.def)             Requested size: 244.0pt x 120.94571pt.
-Package epstopdf Info: Source file: <Figures/case5_lc.eps>
-(epstopdf)                    date: 2025-11-24 22:48:16
-(epstopdf)                    size: 1140889 bytes
-(epstopdf)             Output file: <Figures/case5_lc-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-11-25 10:09:27
-(epstopdf)                    size: 183761 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/case5_lc-eps-conve
-rted-to.pdf Figures/case5_lc.eps>
-(epstopdf)             \includegraphics on input line 410.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/case5_lc-eps-converted-to.pdf, id=228, 659.46375pt x 804.00375pt>
-File: Figures/case5_lc-eps-converted-to.pdf Graphic file (type pdf)
-<use Figures/case5_lc-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/case5_lc-eps-converted-to.pdf  used on input l
-ine 410.
-(pdftex.def)             Requested size: 244.0pt x 297.47673pt.
-Package epstopdf Info: Source file: <Figures/c5_helios_aia_131_fd_roi_lc.eps>
-(epstopdf)                    date: 2025-11-24 22:48:16
-(epstopdf)                    size: 1122448 bytes
-(epstopdf)             Output file: <Figures/c5_helios_aia_131_fd_roi_lc-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2025-11-25 10:09:28
-(epstopdf)                    size: 152677 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/c5_helios_aia_131_
-fd_roi_lc-eps-converted-to.pdf Figures/c5_helios_aia_131_fd_roi_lc.eps>
-(epstopdf)             \includegraphics on input line 417.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/c5_helios_aia_131_fd_roi_lc-eps-converted-to.pdf, id=229, 697.60625pt 
-x 346.29375pt>
-File: Figures/c5_helios_aia_131_fd_roi_lc-eps-converted-to.pdf Graphic file (ty
-pe pdf)
-<use Figures/c5_helios_aia_131_fd_roi_lc-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/c5_helios_aia_131_fd_roi_lc-eps-converted-to.p
-df  used on input line 417.
-(pdftex.def)             Requested size: 244.0pt x 121.12007pt.
-Package epstopdf Info: Source file: <Figures/case6_lc.eps>
-(epstopdf)                    date: 2025-11-24 22:48:16
-(epstopdf)                    size: 888420 bytes
-(epstopdf)             Output file: <Figures/case6_lc-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-11-25 10:09:28
-(epstopdf)                    size: 154618 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/case6_lc-eps-conve
-rted-to.pdf Figures/case6_lc.eps>
-(epstopdf)             \includegraphics on input line 424.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/case6_lc-eps-converted-to.pdf, id=230, 659.46375pt x 804.00375pt>
-File: Figures/case6_lc-eps-converted-to.pdf Graphic file (type pdf)
-<use Figures/case6_lc-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/case6_lc-eps-converted-to.pdf  used on input l
-ine 424.
-(pdftex.def)             Requested size: 244.0pt x 297.47673pt.
-Package epstopdf Info: Source file: <Figures/c6_helios_aia_131_fd_roi_lc.eps>
-(epstopdf)                    date: 2025-11-24 22:48:16
-(epstopdf)                    size: 976213 bytes
-(epstopdf)             Output file: <Figures/c6_helios_aia_131_fd_roi_lc-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2025-11-25 10:09:29
-(epstopdf)                    size: 142226 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/c6_helios_aia_131_
-fd_roi_lc-eps-converted-to.pdf Figures/c6_helios_aia_131_fd_roi_lc.eps>
-(epstopdf)             \includegraphics on input line 431.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/c6_helios_aia_131_fd_roi_lc-eps-converted-to.pdf, id=231, 698.61pt x 3
-46.29375pt>
-File: Figures/c6_helios_aia_131_fd_roi_lc-eps-converted-to.pdf Graphic file (ty
-pe pdf)
-<use Figures/c6_helios_aia_131_fd_roi_lc-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/c6_helios_aia_131_fd_roi_lc-eps-converted-to.p
-df  used on input line 431.
-(pdftex.def)             Requested size: 244.0pt x 120.94571pt.
-Package epstopdf Info: Source file: <Figures/case7_lc.eps>
-(epstopdf)                    date: 2025-11-24 22:48:16
-(epstopdf)                    size: 1004415 bytes
-(epstopdf)             Output file: <Figures/case7_lc-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-11-25 10:09:29
-(epstopdf)                    size: 175688 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/case7_lc-eps-conve
-rted-to.pdf Figures/case7_lc.eps>
-(epstopdf)             \includegraphics on input line 438.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/case7_lc-eps-converted-to.pdf, id=232, 659.46375pt x 804.00375pt>
-File: Figures/case7_lc-eps-converted-to.pdf Graphic file (type pdf)
-<use Figures/case7_lc-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/case7_lc-eps-converted-to.pdf  used on input l
-ine 438.
-(pdftex.def)             Requested size: 244.0pt x 297.47673pt.
-Package epstopdf Info: Source file: <Figures/c7_helios_aia_131_fd_roi_lc.eps>
-(epstopdf)                    date: 2025-11-24 22:48:16
-(epstopdf)                    size: 975272 bytes
-(epstopdf)             Output file: <Figures/c7_helios_aia_131_fd_roi_lc-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2025-11-25 10:09:30
-(epstopdf)                    size: 144365 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/c7_helios_aia_131_
-fd_roi_lc-eps-converted-to.pdf Figures/c7_helios_aia_131_fd_roi_lc.eps>
-(epstopdf)             \includegraphics on input line 445.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/c7_helios_aia_131_fd_roi_lc-eps-converted-to.pdf, id=233, 697.60625pt 
-x 346.29375pt>
-File: Figures/c7_helios_aia_131_fd_roi_lc-eps-converted-to.pdf Graphic file (ty
-pe pdf)
-<use Figures/c7_helios_aia_131_fd_roi_lc-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/c7_helios_aia_131_fd_roi_lc-eps-converted-to.p
-df  used on input line 445.
-(pdftex.def)             Requested size: 244.0pt x 121.12007pt.
-Package epstopdf Info: Source file: <Figures/case8_lc.eps>
-(epstopdf)                    date: 2025-11-24 22:48:16
-(epstopdf)                    size: 1055380 bytes
-(epstopdf)             Output file: <Figures/case8_lc-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-11-25 10:09:25
-(epstopdf)                    size: 185926 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/case8_lc-eps-conve
-rted-to.pdf Figures/case8_lc.eps>
-(epstopdf)             \includegraphics on input line 452.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/case8_lc-eps-converted-to.pdf, id=234, 659.46375pt x 804.00375pt>
-File: Figures/case8_lc-eps-converted-to.pdf Graphic file (type pdf)
-<use Figures/case8_lc-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/case8_lc-eps-converted-to.pdf  used on input l
-ine 452.
-(pdftex.def)             Requested size: 244.0pt x 297.47673pt.
-Package epstopdf Info: Source file: <Figures/c8_helios_aia_131_fd_roi_lc.eps>
-(epstopdf)                    date: 2025-11-24 22:48:16
-(epstopdf)                    size: 979114 bytes
-(epstopdf)             Output file: <Figures/c8_helios_aia_131_fd_roi_lc-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2025-11-25 10:09:30
-(epstopdf)                    size: 145595 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/c8_helios_aia_131_
-fd_roi_lc-eps-converted-to.pdf Figures/c8_helios_aia_131_fd_roi_lc.eps>
-(epstopdf)             \includegraphics on input line 459.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/c8_helios_aia_131_fd_roi_lc-eps-converted-to.pdf, id=235, 698.61pt x 3
-46.29375pt>
-File: Figures/c8_helios_aia_131_fd_roi_lc-eps-converted-to.pdf Graphic file (ty
-pe pdf)
-<use Figures/c8_helios_aia_131_fd_roi_lc-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/c8_helios_aia_131_fd_roi_lc-eps-converted-to.p
-df  used on input line 459.
-(pdftex.def)             Requested size: 244.0pt x 120.94571pt.
-Package epstopdf Info: Source file: <Figures/case9_lc.eps>
-(epstopdf)                    date: 2025-11-24 22:48:16
-(epstopdf)                    size: 843170 bytes
-(epstopdf)             Output file: <Figures/case9_lc-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-11-25 10:09:31
-(epstopdf)                    size: 154705 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/case9_lc-eps-conve
-rted-to.pdf Figures/case9_lc.eps>
-(epstopdf)             \includegraphics on input line 466.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/case9_lc-eps-converted-to.pdf, id=236, 659.46375pt x 804.00375pt>
-File: Figures/case9_lc-eps-converted-to.pdf Graphic file (type pdf)
-<use Figures/case9_lc-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/case9_lc-eps-converted-to.pdf  used on input l
-ine 466.
-(pdftex.def)             Requested size: 244.0pt x 297.47673pt.
-Package epstopdf Info: Source file: <Figures/c9_helios_aia_131_fd_roi_lc.eps>
-(epstopdf)                    date: 2025-11-24 22:48:16
-(epstopdf)                    size: 877924 bytes
-(epstopdf)             Output file: <Figures/c9_helios_aia_131_fd_roi_lc-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2025-11-25 10:09:31
-(epstopdf)                    size: 129005 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/c9_helios_aia_131_
-fd_roi_lc-eps-converted-to.pdf Figures/c9_helios_aia_131_fd_roi_lc.eps>
-(epstopdf)             \includegraphics on input line 473.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/c9_helios_aia_131_fd_roi_lc-eps-converted-to.pdf, id=237, 697.60625pt 
-x 346.29375pt>
-File: Figures/c9_helios_aia_131_fd_roi_lc-eps-converted-to.pdf Graphic file (ty
-pe pdf)
-<use Figures/c9_helios_aia_131_fd_roi_lc-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/c9_helios_aia_131_fd_roi_lc-eps-converted-to.p
-df  used on input line 473.
-(pdftex.def)             Requested size: 244.0pt x 121.12007pt.
-Package epstopdf Info: Source file: <Figures/case10_lc.eps>
-(epstopdf)                    date: 2025-11-24 22:48:16
-(epstopdf)                    size: 999967 bytes
-(epstopdf)             Output file: <Figures/case10_lc-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-11-25 10:09:32
-(epstopdf)                    size: 182190 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/case10_lc-eps-conv
-erted-to.pdf Figures/case10_lc.eps>
-(epstopdf)             \includegraphics on input line 480.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/case10_lc-eps-converted-to.pdf, id=238, 659.46375pt x 804.00375pt>
-File: Figures/case10_lc-eps-converted-to.pdf Graphic file (type pdf)
-<use Figures/case10_lc-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/case10_lc-eps-converted-to.pdf  used on input 
-line 480.
-(pdftex.def)             Requested size: 244.0pt x 297.47673pt.
-Package epstopdf Info: Source file: <Figures/c10_helios_aia_131_fd_roi_lc.eps>
-(epstopdf)                    date: 2025-11-24 22:48:16
-(epstopdf)                    size: 984736 bytes
-(epstopdf)             Output file: <Figures/c10_helios_aia_131_fd_roi_lc-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2025-11-25 10:09:32
-(epstopdf)                    size: 144928 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/c10_helios_aia_131
-_fd_roi_lc-eps-converted-to.pdf Figures/c10_helios_aia_131_fd_roi_lc.eps>
-(epstopdf)             \includegraphics on input line 487.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/c10_helios_aia_131_fd_roi_lc-eps-converted-to.pdf, id=239, 697.60625pt
- x 346.29375pt>
-File: Figures/c10_helios_aia_131_fd_roi_lc-eps-converted-to.pdf Graphic file (t
-ype pdf)
-<use Figures/c10_helios_aia_131_fd_roi_lc-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/c10_helios_aia_131_fd_roi_lc-eps-converted-to.
-pdf  used on input line 487.
-(pdftex.def)             Requested size: 244.0pt x 121.12007pt.
-<Figures/case1_lc.png, id=240, 671.6292pt x 926.7423pt>
-File: Figures/case1_lc.png Graphic file (type png)
-<use Figures/case1_lc.png>
-Package pdftex.def Info: Figures/case1_lc.png  used on input line 496.
-(pdftex.def)             Requested size: 244.0pt x 336.68141pt.
-<Figures/c1_aia_131_fd_roi_lc.png, id=242, 779.3115pt x 342.078pt>
+File: Figures/c4_helios_aia_131_fd_roi_lc.pdf Graphic file (type pdf)
+<use Figures/c4_helios_aia_131_fd_roi_lc.pdf>
+Package pdftex.def Info: Figures/c4_helios_aia_131_fd_roi_lc.pdf  used on input
+ line 400.
+(pdftex.def)             Requested size: 244.0pt x 106.63933pt.
+<Figures/case5_lc.pdf, id=257, 808.77719pt x 817.99965pt>
+File: Figures/case5_lc.pdf Graphic file (type pdf)
+<use Figures/case5_lc.pdf>
+Package pdftex.def Info: Figures/case5_lc.pdf  used on input line 407.
+(pdftex.def)             Requested size: 244.0pt x 246.77477pt.
+<Figures/c5_helios_aia_131_fd_roi_lc.pdf, id=258, 1188.61006pt x 527.57097pt>
+File: Figures/c5_helios_aia_131_fd_roi_lc.pdf Graphic file (type pdf)
+<use Figures/c5_helios_aia_131_fd_roi_lc.pdf>
+Package pdftex.def Info: Figures/c5_helios_aia_131_fd_roi_lc.pdf  used on input
+ line 414.
+(pdftex.def)             Requested size: 244.0pt x 108.29764pt.
+<Figures/case6_lc.pdf, id=259, 815.9968pt x 817.99965pt>
+File: Figures/case6_lc.pdf Graphic file (type pdf)
+<use Figures/case6_lc.pdf>
+Package pdftex.def Info: Figures/case6_lc.pdf  used on input line 421.
+(pdftex.def)             Requested size: 244.0pt x 244.59048pt.
+<Figures/c6_helios_aia_131_fd_roi_lc.pdf, id=260, 1188.61006pt x 527.57097pt>
+File: Figures/c6_helios_aia_131_fd_roi_lc.pdf Graphic file (type pdf)
+<use Figures/c6_helios_aia_131_fd_roi_lc.pdf>
+Package pdftex.def Info: Figures/c6_helios_aia_131_fd_roi_lc.pdf  used on input
+ line 428.
+(pdftex.def)             Requested size: 244.0pt x 108.29764pt.
+<Figures/case7_lc.pdf, id=261, 821.98051pt x 817.99965pt>
+File: Figures/case7_lc.pdf Graphic file (type pdf)
+<use Figures/case7_lc.pdf>
+Package pdftex.def Info: Figures/case7_lc.pdf  used on input line 435.
+(pdftex.def)             Requested size: 244.0pt x 242.81808pt.
+<Figures/c7_helios_aia_131_fd_roi_lc.pdf, id=262, 1188.61006pt x 527.57097pt>
+File: Figures/c7_helios_aia_131_fd_roi_lc.pdf Graphic file (type pdf)
+<use Figures/c7_helios_aia_131_fd_roi_lc.pdf>
+Package pdftex.def Info: Figures/c7_helios_aia_131_fd_roi_lc.pdf  used on input
+ line 442.
+(pdftex.def)             Requested size: 244.0pt x 108.29764pt.
+<Figures/case8_lc.pdf, id=263, 808.77719pt x 817.99965pt>
+File: Figures/case8_lc.pdf Graphic file (type pdf)
+<use Figures/case8_lc.pdf>
+Package pdftex.def Info: Figures/case8_lc.pdf  used on input line 449.
+(pdftex.def)             Requested size: 244.0pt x 246.77477pt.
+<Figures/c8_helios_aia_131_fd_roi_lc.pdf, id=264, 1188.61006pt x 527.57097pt>
+File: Figures/c8_helios_aia_131_fd_roi_lc.pdf Graphic file (type pdf)
+<use Figures/c8_helios_aia_131_fd_roi_lc.pdf>
+Package pdftex.def Info: Figures/c8_helios_aia_131_fd_roi_lc.pdf  used on input
+ line 456.
+(pdftex.def)             Requested size: 244.0pt x 108.29764pt.
+<Figures/case9_lc.pdf, id=265, 821.98051pt x 817.99965pt>
+File: Figures/case9_lc.pdf Graphic file (type pdf)
+<use Figures/case9_lc.pdf>
+Package pdftex.def Info: Figures/case9_lc.pdf  used on input line 463.
+(pdftex.def)             Requested size: 244.0pt x 242.81808pt.
+<Figures/c9_helios_aia_131_fd_roi_lc.pdf, id=266, 1188.61006pt x 527.57097pt>
+File: Figures/c9_helios_aia_131_fd_roi_lc.pdf Graphic file (type pdf)
+<use Figures/c9_helios_aia_131_fd_roi_lc.pdf>
+Package pdftex.def Info: Figures/c9_helios_aia_131_fd_roi_lc.pdf  used on input
+ line 470.
+(pdftex.def)             Requested size: 244.0pt x 108.29764pt.
+<Figures/case10_lc.pdf, id=267, 808.77719pt x 817.99965pt>
+File: Figures/case10_lc.pdf Graphic file (type pdf)
+<use Figures/case10_lc.pdf>
+Package pdftex.def Info: Figures/case10_lc.pdf  used on input line 477.
+(pdftex.def)             Requested size: 244.0pt x 246.77477pt.
+<Figures/c10_helios_aia_131_fd_roi_lc.pdf, id=268, 1188.61006pt x 527.57097pt>
+File: Figures/c10_helios_aia_131_fd_roi_lc.pdf Graphic file (type pdf)
+<use Figures/c10_helios_aia_131_fd_roi_lc.pdf>
+Package pdftex.def Info: Figures/c10_helios_aia_131_fd_roi_lc.pdf  used on inpu
+t line 484.
+(pdftex.def)             Requested size: 244.0pt x 108.29764pt.
+<Figures/case1_lc.pdf, id=269, 813.98073pt x 817.99965pt>
+File: Figures/case1_lc.pdf Graphic file (type pdf)
+<use Figures/case1_lc.pdf>
+Package pdftex.def Info: Figures/case1_lc.pdf  used on input line 493.
+(pdftex.def)             Requested size: 244.0pt x 245.20209pt.
+<Figures/c1_aia_131_fd_roi_lc.png, id=270, 779.3115pt x 342.078pt>
 File: Figures/c1_aia_131_fd_roi_lc.png Graphic file (type png)
 <use Figures/c1_aia_131_fd_roi_lc.png>
 Package pdftex.def Info: Figures/c1_aia_131_fd_roi_lc.png  used on input line 5
-03.
+00.
 (pdftex.def)             Requested size: 244.0pt x 107.10268pt.
-<Figures/case2_lc.png, id=243, 657.4161pt x 926.7423pt>
+<Figures/case2_lc.png, id=272, 657.4161pt x 926.7423pt>
 File: Figures/case2_lc.png Graphic file (type png)
 <use Figures/case2_lc.png>
-Package pdftex.def Info: Figures/case2_lc.png  used on input line 510.
+Package pdftex.def Info: Figures/case2_lc.png  used on input line 507.
 (pdftex.def)             Requested size: 244.0pt x 343.96399pt.
-<Figures/c2_aia_131_fd_roi_lc.png, id=244, 770.3982pt x 342.078pt>
+<Figures/c2_aia_131_fd_roi_lc.png, id=273, 770.3982pt x 342.078pt>
 File: Figures/c2_aia_131_fd_roi_lc.png Graphic file (type png)
 <use Figures/c2_aia_131_fd_roi_lc.png>
 Package pdftex.def Info: Figures/c2_aia_131_fd_roi_lc.png  used on input line 5
-17.
+14.
 (pdftex.def)             Requested size: 244.0pt x 108.33974pt.
-<Figures/case3_lc.png, id=245, 686.0832pt x 926.7423pt>
+<Figures/case3_lc.png, id=274, 686.0832pt x 926.7423pt>
 File: Figures/case3_lc.png Graphic file (type png)
 <use Figures/case3_lc.png>
-Package pdftex.def Info: Figures/case3_lc.png  used on input line 525.
+Package pdftex.def Info: Figures/case3_lc.png  used on input line 522.
 (pdftex.def)             Requested size: 244.0pt x 329.58267pt.
-<Figures/c3_aia_131_fd_roi_lc.png, id=246, 771.3618pt x 342.078pt>
+<Figures/c3_aia_131_fd_roi_lc.png, id=275, 771.3618pt x 342.078pt>
 File: Figures/c3_aia_131_fd_roi_lc.png Graphic file (type png)
 <use Figures/c3_aia_131_fd_roi_lc.png>
 Package pdftex.def Info: Figures/c3_aia_131_fd_roi_lc.png  used on input line 5
-32.
+29.
 (pdftex.def)             Requested size: 244.0pt x 108.20403pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.1})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
-                     <./Figures/case4_lc-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5
+l.542 \end{document}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.2})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
-                    
+l.542 \end{document}
+                     <./Figures/case4_lc-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.3})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
+l.542 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.4})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
+l.542 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.5})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
-                     <./Figures/case5_lc-eps-converted-to.pdf> <./Figures/c5_he
-lios_aia_131_fd_roi_lc-eps-converted-to.pdf>] [6
+l.542 \end{document}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.6})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
+l.542 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.7})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
-                    
+l.542 \end{document}
+                     <./Figures/case5_lc.pdf> <./Figures/c5_helios_aia_131_fd_r
+oi_lc.pdf> <./Figures/case6_lc.pdf> <./Figures/c6_helios_aia_131_fd_roi_lc.pdf>
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.8})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
+l.542 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.9})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
-                     <./Figures/case6_lc-eps-converted-to.pdf> <./Figures/c6_he
-lios_aia_131_fd_roi_lc-eps-converted-to.pdf> <./Figures/case7_lc-eps-converted-
-to.pdf> <./Figures/c7_helios_aia_131_fd_roi_lc-eps-converted-to.pdf>] [7
+l.542 \end{document}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.10}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
+l.542 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.11}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
-                    
+l.542 \end{document}
+                     <./Figures/case7_lc.pdf> <./Figures/c7_helios_aia_131_fd_r
+oi_lc.pdf> <./Figures/case8_lc.pdf> <./Figures/c8_helios_aia_131_fd_roi_lc.pdf>
+] [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.12}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
+l.542 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.13}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
-                     <./Figures/case8_lc-eps-converted-to.pdf> <./Figures/c8_he
-lios_aia_131_fd_roi_lc-eps-converted-to.pdf> <./Figures/case9_lc-eps-converted-
-to.pdf> <./Figures/c9_helios_aia_131_fd_roi_lc-eps-converted-to.pdf>] [8
+l.542 \end{document}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.14}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
+l.542 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.15}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
-                    
+l.542 \end{document}
+                     <./Figures/case9_lc.pdf> <./Figures/c9_helios_aia_131_fd_r
+oi_lc.pdf> <./Figures/case10_lc.pdf> <./Figures/c10_helios_aia_131_fd_roi_lc.pd
+f>] [8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.16}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
+l.542 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.17}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
-                     <./Figures/case10_lc-eps-converted-to.pdf> <./Figures/c10_
-helios_aia_131_fd_roi_lc-eps-converted-to.pdf> <./Figures/case1_lc.png> <./Figu
-res/c1_aia_131_fd_roi_lc.png>] [9
+l.542 \end{document}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.18}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
+l.542 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.19}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
-                    
+l.542 \end{document}
+                     <./Figures/case1_lc.pdf> <./Figures/c1_aia_131_fd_roi_lc.p
+ng> <./Figures/case2_lc.png> <./Figures/c2_aia_131_fd_roi_lc.png>] [9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.20}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
+l.542 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A2.21}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \end{document}
-                     <./Figures/case2_lc.png> <./Figures/c2_aia_131_fd_roi_lc.p
-ng> <./Figures/case3_lc.png> <./Figures/c3_aia_131_fd_roi_lc.png>] (./paper.aux
-)
+l.542 \end{document}
+                    
+
+ <./Figures/case3_lc.png> <./Figures/c3_aia_131_fd_roi_lc.png>] (./paper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1304,10 +1126,10 @@ Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: CFE9057B6E6425C61D674DD50CA65F93;4659.
  ) 
 Here is how much of TeX's memory you used:
- 15089 strings out of 474222
- 223177 string characters out of 5748733
+ 15090 strings out of 474222
+ 222254 string characters out of 5748733
  1951975 words of memory out of 5000000
- 37028 multiletter control sequences out of 15000+600000
+ 37029 multiletter control sequences out of 15000+600000
  650386 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,15n,93p,641b,427s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1322,21 +1144,18 @@ fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-</usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfrm2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.
-pfb>
-Output written on paper.pdf (9 pages, 21169465 bytes).
+/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/new
+tx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on paper.pdf (9 pages, 19781461 bytes).
 PDF statistics:
- 586 PDF objects out of 1000 (max. 8388607)
- 505 compressed objects within 6 object streams
+ 794 PDF objects out of 1000 (max. 8388607)
+ 519 compressed objects within 6 object streams
  74 named destinations out of 1000 (max. 500000)
  300 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -162,7 +162,7 @@ All the images are co-aligned using the \texttt{mc\_coalign} function, publicly 
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{Figures/4case4_lc.eps}  
+    \includegraphics[width=1\linewidth]{Figures/case4_lc.pdf}  
     \caption{a) Total intensity light curve of the \ion{Mg}{ii} h ROI images (black). The errors of the individual data points are scaled by $10^3$ for visibility. The light curve of the difference-image intensity above the threshold is shown in cyan, with errors scaled by $10^4$ for clarity. b) HEL1OS light curve (CdTe 1 and CdTe 2, 9{--}40 keV), binned to 1-minute intervals, c) Temperature derived from SoLEXS(orange) and X-ray flux from the GOES 1{--} 8 {\AA} band (sky blue) }
     \label{fig:enter-label}
 \end{figure}
@@ -178,7 +178,7 @@ All the images are co-aligned using the \texttt{mc\_coalign} function, publicly 
     \centering
     \includegraphics[width=1\linewidth]{Figures/c4_hmi_plot_time_stamps.pdf}
     \caption{Case 4 HMI images, gray colour line represents PIL (0 Gauss value pixels)and green colour contours are SUIT enhancement contours from difference image.}
-    \label{fig:placeholder}
+    \label{fig:c4_hmi}
 \end{figure}
 
 
@@ -195,6 +195,7 @@ Therefore, we computed the median and standard deviation($\hat{\sigma}$) from me
 \noindent
 where
 \begin{align*}
+%\text{For difference image intensity Xi}
 \tilde{X}    &= \mathrm{median}(X_i)\\
 \mathrm{MAD} &= \mathrm{median}\left(|X_i - \tilde{X}|\right)\\
 \mathrm{k}	&\approx 1.4826 ~ \text{(for normal distribution)}
@@ -222,7 +223,7 @@ AIA 131 \AA and AIA 94 \AA observe the hot plasma close to the X-ray in the SDO 
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{Figures/c4_helios_aia_131_fd_roi_lc.eps}
+    \includegraphics[width=1\linewidth]{Figures/c4_helios_aia_131_fd_roi_lc.pdf}
     \caption{AIA 131 light curves compared with HEL1OS light curve}
     \label{fig:placeholder}
 \end{figure}
@@ -245,23 +246,19 @@ but, we have an STIX observation for the last 6 cases; using STIX data, we analy
 \section{Results}
 
 \subsection{Case 4: M1.5 class flare on July 10 2024}
-We observe multiple brightenings in the pre-flare window (Fig. \ref{c4_lc}). All the brightening is occurring on the Polarity Inversion Line (PIL), and some are located close to it. 
-
+We observe multiple brightenings in the pre-flare window (Fig. \ref{c4_lc}). All the brightening is occurring on the Polarity Inversion Line (PIL), and some are located close to it (fig \ref{fig:c4_hmi}). 
 Several of the enhancements exhibit corresponding pre-event signatures in HEL1OS. 
 To confirm their source locations, we examined the AIA 131 Å images.
-For three such events, we found a time delay of approximately 90 seconds between the HEL1OS signal and the \ion{Mg}{ii}~h response.
-(DCF plot, HMI plot required)
+For three such events, we found a time delay of approximately 90 seconds between the HEL1OS signal and the \ion{Mg}{ii}~h response (DCF plot required).
 The continuous enhancement began to appear at the flaring location after 05:28, which is approximately 31 minutes before the flare's soft X-ray peak time (based on the GOES data).
 The coronal temperature measured from SoLEXS reaches approximately 6 MK and shows a rapid increase after 05:46, which is about 15 minutes before the soft X-ray peak.
-
-
 \subsection{Case 5: M1.1 class flare on July 10 2024}
 It is another flare from the same active region as above (AR 13878).
 In this case, we also observe multiple brightenings in the pre-flare window. Four major brightening locations were identified, including flare locations (B1, B2, B3 and B4). 
 All brightenings are on or close to the PIL (Cannot differentiate the exact location due to the PSF size).
 
 After 14:45 onwards continuous brightening is observed, B2 and B3 are constant contributors and B1 is pulsating, note that all three regions are connected (see 171 images in fig ).
-SoLEXS temperature does not show much variation, fluctuating between 6-7 MK.
+SoLEXS temperature does not show much variation, it lies between 6-7 MK.
 
 
 
@@ -269,7 +266,7 @@ SoLEXS temperature does not show much variation, fluctuating between 6-7 MK.
 One of the strong flares in our dataset was produced by AR 13848.
 Minor pre-flare activity was detected in this active region. A small brightening was observed at point 6P1, which may represent a small counterpart of the coronal activity seen in the AIA 171 Å images.
 
-The flare ribbons displayed a flipped ‘S’ morphology, suggesting a sigmoidal flare structure, which is further supported by the XRT soft X-ray observations(attach XRT image) .
+The flare ribbons displayed a flipped ‘S’ morphology, suggesting a sigmoidal flare structure, which is further supported by the XRT soft X-ray observations(attach XRT image).
 %The flare may have been triggered by its own magnetic instability, which is a characteristic behaviour of sigmoidal flares.
 
 \subsection{Case 7: M1.3 class flare on November 1 2024}
@@ -400,91 +397,91 @@ All data are publicly available on the ISSDC-pradan website.
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{Figures/c4_helios_aia_131_fd_roi_lc.eps}
+    \includegraphics[width=1\linewidth]{Figures/c4_helios_aia_131_fd_roi_lc.pdf}
     \caption{Case 4: AIA 131 light curve}
     \label{fig:placeholder}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{Figures/case5_lc.eps}
+    \includegraphics[width=1\linewidth]{Figures/case5_lc.pdf}
     \caption{Case 5 Light curves}
     \label{fig:placeholder}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{Figures/c5_helios_aia_131_fd_roi_lc.eps}
+    \includegraphics[width=1\linewidth]{Figures/c5_helios_aia_131_fd_roi_lc.pdf}
     \caption{Case 5: AIA 131 light curve}
     \label{fig:placeholder}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{Figures/case6_lc.eps}
+    \includegraphics[width=1\linewidth]{Figures/case6_lc.pdf}
     \caption{Case 6 Light curves}
     \label{fig:placeholder}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{Figures/c6_helios_aia_131_fd_roi_lc.eps}
+    \includegraphics[width=1\linewidth]{Figures/c6_helios_aia_131_fd_roi_lc.pdf}
     \caption{Case 6: AIA 131 light curve}
     \label{fig:placeholder}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{Figures/case7_lc.eps}
+    \includegraphics[width=1\linewidth]{Figures/case7_lc.pdf}
     \caption{Case 7 Light curves}
     \label{fig:placeholder}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{Figures/c7_helios_aia_131_fd_roi_lc.eps}
+    \includegraphics[width=1\linewidth]{Figures/c7_helios_aia_131_fd_roi_lc.pdf}
     \caption{Case 7: AIA 131 light curve}
     \label{fig:placeholder}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{Figures/case8_lc.eps}
+    \includegraphics[width=1\linewidth]{Figures/case8_lc.pdf}
     \caption{Case 8 Light curves}
     \label{fig:placeholder}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{Figures/c8_helios_aia_131_fd_roi_lc.eps}
+    \includegraphics[width=1\linewidth]{Figures/c8_helios_aia_131_fd_roi_lc.pdf}
     \caption{Case 8: AIA 131 light curve}
     \label{fig:placeholder}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{Figures/case9_lc.eps}
+    \includegraphics[width=1\linewidth]{Figures/case9_lc.pdf}
     \caption{Case 9 Light curves}
     \label{fig:placeholder}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{Figures/c9_helios_aia_131_fd_roi_lc.eps}
+    \includegraphics[width=1\linewidth]{Figures/c9_helios_aia_131_fd_roi_lc.pdf}
     \caption{Case 9: AIA 131 light curve}
     \label{fig:placeholder}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{Figures/case10_lc.eps}
+    \includegraphics[width=1\linewidth]{Figures/case10_lc.pdf}
     \caption{Case 10 Light curves}
     \label{fig:placeholder}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{Figures/c10_helios_aia_131_fd_roi_lc.eps}
+    \includegraphics[width=1\linewidth]{Figures/c10_helios_aia_131_fd_roi_lc.pdf}
     \caption{Case 10: AIA 131 light curve}
     \label{fig:placeholder}
 \end{figure}
@@ -493,7 +490,7 @@ All data are publicly available on the ISSDC-pradan website.
 
 \begin{figure}  
     \centering
-    \includegraphics[width=1 \linewidth]{Figures/case1_lc.png}
+    \includegraphics[width=1 \linewidth]{Figures/case1_lc.pdf}
     \caption{Case 1: June 1st flare}
     \label{fig:placeholder}
 \end{figure}
